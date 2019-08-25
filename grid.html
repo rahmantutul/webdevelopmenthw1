@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+
+    <style>
+       .header {
+       display: grid;
+       grid-template-columns: 30% 70%;
+       height: 100px;
+
+    
+
+       }
+       .header > div:nth-child(1){
+            background:red;
+            }
+            .header > div:nth-child(2){
+            background:blue;
+            }
+
+      .section{
+          display: grid;
+          grid-auto-columns: 100%;
+          background: purple;
+          height: 40px;
+      }
+      .section2{
+
+          display: grid;
+          grid-template-columns: 50% 50%;
+          height: 400px;
+
+      }
+      .section2 > div:nth-child(1){
+            background:rgb(25, 146, 35);
+            }
+            .section2> div:nth-child(2){
+            background:blue;
+            }
+            .footer{
+                display: grid;
+          grid-template-columns:  100%;
+          height: 40px; 
+          background: rebeccapurple;}
+         
+          
+    
+    
+    
+    
+    </style>
+</head>
+<body>
+       <div class="header">
+       <div>this is logo</div>
+       <div>this is header</div>
+</div>
+    <div class="section">this is menu</div>
+    <div class="section2">
+        <div>this is side bar left</div>
+        <div>this is content</div>
+    </div>
+    <div class="footer">this is footer</div>
+</body>
+</html>
